@@ -1,14 +1,13 @@
 #include<iostream>
-#include"functions.h"
-#include<string.h>
+#include<string>
+#include "functions.h"
 
 int main()
 {
-    std::string s[12];
-    /* printCircleOfFifth(s); */
-    /* minorPentatonic("C ",s); */
-    /* printStringArray(s,5); */
-    printCircleOfFifth(s);
+    std::string s[4];
+    makeChord(s,"C ","maj7");
+    drawNotesOnFret(s,4);
+
     //clearence
     printf("\n\n\n\n\n");
     return 0;

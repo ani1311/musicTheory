@@ -1,8 +1,8 @@
 VERBOSE=0
 all:
-	g++ main.cpp -o a
+	g++ main.cpp functions.cpp -g -o a
 	./a
-	make clean
+	#make clean
 
 clean:
 	rm -rf *o a
